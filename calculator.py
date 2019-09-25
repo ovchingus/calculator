@@ -6,6 +6,7 @@ class Calculator:
   def change_name(self, new_name):
     self.name = new_name
 
+
   def plus(self, a, b):
     return a + b
 
