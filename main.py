@@ -12,7 +12,7 @@ while True:
   except (IOError, KeyboardInterrupt):
     print '\nReturning to main menu...'
 
-  arr = prs.parse(command)
+  arr = prs.parseBase(command)
 
   if arr[0] == 'q\n':
     break
