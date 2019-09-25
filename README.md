@@ -3,10 +3,10 @@ If you want to calculate your numbers - **Pycalc** is the best way to do it.
 
 ## Functions
 The calculator has a huge number of functions:
-> Addition
-> Subtraction
-> Multiplication
-> Division
+- Addition
+- Subtraction
+- Multiplication
+- Division
 
 
 If you are eager to add two numbers, **Addition** will help you.
