@@ -41,3 +41,5 @@ while True:
       print(calc.sin(float(trigOp[1])))
     if trigOp[0] == 'cos':
       print(calc.cos(float(trigOp[1])))
+    if trigOp[0] == 'tan':
+      print(calc.tan(float(trigOp[1])))
