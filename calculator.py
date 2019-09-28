@@ -7,7 +7,7 @@ class Calculator:
 
   def change_name(self, new_name):
     self.name = new_name
-
+    
 
   def plus(self, a, b):
     """Return plus operation result
@@ -56,3 +56,6 @@ class Calculator:
         int -- result of divide
     """
     return a / b
+
+  def sin(self, a):
+    return '1'
