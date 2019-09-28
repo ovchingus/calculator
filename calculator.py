@@ -60,4 +60,23 @@ class Calculator:
     return a / b
 
   def sin(self, a):
+    """Return sinus operation result
+    
+    Arguments:
+        a {int} -- angle in radians
+    
+    Returns:
+        float -- result of sinus operation
+    """
     return math.sin(a)
+
+  def cos(self, a):
+    """Return cosinus operation result
+    
+    Arguments:
+        a {int} -- angle in radians
+    
+    Returns:
+        float -- result of cosinus operation
+    """
+    return math.cos(a)

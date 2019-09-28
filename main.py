@@ -16,7 +16,9 @@ while True:
     print '\nReturning to main menu...'
 
   if calcType == 'base':
+
     baseOp = prs.parseBase(command)
+    
     if baseOp[0] == 'q':
       break
     if baseOp[1] == '+':
@@ -30,9 +32,12 @@ while True:
 
   print(calcType)
   if calcType == 'trig':
+
     trigOp = prs.parseTrig(command)
 
     if trigOp[0] == 'q\n':
       break 
     if trigOp[0] == 'sin':
       print(calc.sin(float(trigOp[1])))
+    if trigOp[0] == 'cos':
+      print(calc.cos(float(trigOp[1])))
