@@ -25,3 +25,6 @@ while True:
     print (calc.multiply(float(baseOp[0]), float(baseOp[2])))
   if baseOp[1] == '/':
     print (calc.divide(float(baseOp[0]), float(baseOp[2])))
+
+  if trigOp[0] == 'sin':
+    print (calc.sin(float(baseOp[0])))
