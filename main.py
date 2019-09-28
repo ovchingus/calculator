@@ -12,15 +12,16 @@ while True:
   except (IOError, KeyboardInterrupt):
     print '\nReturning to main menu...'
 
-  arr = prs.parseBase(command)
+  baseOp = prs.parseBase(command)
+  trigOp = prs.parseTrig(command)
 
-  if arr[0] == 'q\n':
+  if baseOp[0] == 'q\n':
     break
-  if arr[1] == '+':
-    print (calc.plus(float(arr[0]), float(arr[2])))
-  if arr[1] == '-':
-    print (calc.minus(float(arr[0]), float(arr[2])))
-  if arr[1] == '*':
-    print (calc.multiply(float(arr[0]), float(arr[2])))
-  if arr[1] == '/':
-    print (calc.divide(float(arr[0]), float(arr[2])))
+  if baseOp[1] == '+':
+    print (calc.plus(float(baseOp[0]), float(baseOp[2])))
+  if baseOp[1] == '-':
+    print (calc.minus(float(baseOp[0]), float(baseOp[2])))
+  if baseOp[1] == '*':
+    print (calc.multiply(float(baseOp[0]), float(baseOp[2])))
+  if baseOp[1] == '/':
+    print (calc.divide(float(baseOp[0]), float(baseOp[2])))

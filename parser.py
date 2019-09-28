@@ -14,3 +14,8 @@ class Parser:
     """
     arr = string.split(' ')
     return arr
+
+  def parseTrig(self, string):
+    op = string.split('(')[0]
+    num = string.split('(')[1][:-1]
+    return [op, num]
