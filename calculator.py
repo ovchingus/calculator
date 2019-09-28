@@ -1,3 +1,5 @@
+import math
+
 class Calculator:
   """Contains math methods for calculating values
   """
@@ -58,4 +60,4 @@ class Calculator:
     return a / b
 
   def sin(self, a):
-    return '1'
+    return math.sin(a)
