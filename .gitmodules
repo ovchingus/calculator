@@ -1,0 +1,3 @@
+[submodule "pmr-generator"]
+	path = pmr-generator
+	url = git@github.com:BrandonCravener/pmr-generator.git
