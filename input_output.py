@@ -9,6 +9,6 @@ class InputOutput:
     Returns:
         str -- User input string
     """
-    print('Type Operation: ')
+    print('Operation: ')
     string = sys.stdin.readline()
     return string
