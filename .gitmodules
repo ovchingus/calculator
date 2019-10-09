@@ -1,3 +1,6 @@
 [submodule "pmr-generator"]
 	path = pmr-generator
 	url = git@github.com:BrandonCravener/pmr-generator.git
+[submodule "linux-utils"]
+	path = linux-utils
+	url = git@github.com:ovchingus/LinuxUtil.git
